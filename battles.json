@@ -1,0 +1,32 @@
+{
+  "Famous Battles": [
+    {
+      "title": "First Battle of Panipat",
+      "year": 1526,
+      "description": "The First Battle of Panipat, on 21 April 1526, was fought between the invading forces of Babur and the Lodi Kingdom. It took place in north India and marked the beginning of the Mughal Empire.",
+      "plot": [29.3909, 76.9635]
+    },
+    {
+      "title": "Battle of Khanwa",
+      "year": 1527,
+      "description": "The Battle of Khanwa was fought near the village of Khanwa, in Bharatpur District of Rajasthan, on March 17, 1527. It was fought between the invading forces of the first Mughal Emperor Babur and the Rajput forces led by Rana Sanga of Mewar, after the Battle of Panipat.",
+      "plot": [21.8257, 76.3526]
+    },
+    {
+      "title": "The Battle of Rajmahal",
+      "year": 1576,
+      "description": "The Battle of Rajmahal was a battle that took place between the Mughal Empire and the Karrani Dynasty that ruled the Sultanate of Bengal in 1576. The battle resulted in a decisive victory for the Mughals. During the battle, the last Sultan of Bengal, Daud Khan Karrani, was captured and later executed by the Mughals.",
+      "plot": [22.108612, 88.572548]
+    },
+    {
+      "title": "The Battle of Saraighat",
+      "year": 1671,
+      "description": "The Battle of Saraighat was the last battle in the last major attempt by the Mughals to extend their empire into Assam. Though the Mughals managed to regain Guwahati briefly after a later Borphukan deserted it, the Ahoms wrested control in the Battle of Itakhuli in 1682 and maintained it till the end of their rule.",
+      "plot": [111.48259099999996, 33.298364]
+    },
+    {
+      "title": "The Battle of Chamkaur",
+      "year": 1704,
+      "description": "The Battle of Chamkaur, also known as Battle of Chamkaur Sahib, was fought between the Khalsa led by Guru Gobind Singh and the Mughal forces led by Wazir Khan. Guru Gobind Singh makes a reference to this battle in his victory letter Zafarnama.",
+      "plot": [30.8927, 76.4129]
+    }
