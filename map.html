@@ -5,71 +5,31 @@
     <meta charset='utf-8' />
     <title>Display a map</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css' rel='stylesheet' />
-    <style>
-      body { margin:0; padding:0; }
-      #map { position:absolute; top:0; bottom:0; width:100%; }
-      #sliderbar {
-
-      position: absolute;
-      margin: 10px;
-      width: 140px;
-      background-color: #bca592;
-      padding: 10px 20px;
-      z-index: 99;
-      border: 2px solid #85766a;
-}
-    </style>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
+     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet' />
+<link rel="stylesheet" href="css/style2.css">
 </head>
 <body>
-
 <div id='map'>
+  <ul>
+  <li>Accession and Battles of Mughal Empire</li>
+</ul>
   <div class='session' id='sliderbar'>
+    <h1>Area conquered</h1>
     <h2>Year: <label id='active-hour'>1530</label></h2>
     <input id='slider' class='row' type='range' min='0' max='2' step='1' value='0' />
   </div>
+<div class="info">
+  <img src="images/icon.png" alt="" id="icon">
+  <span>Battles Fought
+    <h1 style="font-size:66%;">First Battle of Panipat[1526]</h1>
+    <h1 style="font-size:70%;">Battle of Khanwa [1527]</h1>
+    <h1 style="font-size:70%;">Battle of Rajmahal [1576]</h1>
+    <h1 style="font-size:70%;">Battle of Saraighat [1671]</h1>
+    <h1 style="font-size:70%;">Battle of Chamkaur [1704]</h1>
+  </span>
 </div>
-
-<script>
-mapboxgl.accessToken = 'pk.eyJ1Ijoic2FuZWVyIiwiYSI6ImNqbjF4aGV2bjU0b2Qza255ZHRiNXI3bm0ifQ.2dwYxqcqpsTwHwHcVEN25w';
-const map = new mapboxgl.Map({
-container: 'map',
-style: 'mapbox://styles/sidhant47/cjn53w043010f2sjqbzaawhci',
-center: [75.730508, 21.257961],
-zoom: 3.0
-});
-
-map.on('load', function() {
-  var year = [1530,1605,1707]
-   map.addLayer({
-     id: 'collisions',
-     type: 'fill',
-     source: {
-       type: 'geojson',
-       data: './geojson.json' // replace this with the url of your own geojson
-     },
-     paint: {
-            'fill-color': '#731704',
-            'fill-opacity': 0.8
-        }
-
-   });
-   map.setFilter('collisions', ['==', ['number', ['get', 'Year']], year[0]]);
-
-   document.getElementById('slider').addEventListener('input', function(e) {
-  var y = parseInt(e.target.value);
-  var ye = year[y]
-
-  map.setFilter('collisions', ['<=', ['number', ['get', 'Year']], ye]);
-
-
-   document.getElementById('active-hour').innerText = ye;
-});
- });
-
-
-</script>
-
+</div>
+<script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
