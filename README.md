@@ -1,4 +1,4 @@
-# [Mughal-Space-Time] 
+# Mughal-Space-Time
 
 App Link
 ========
@@ -12,13 +12,21 @@ Features
 
 Installation
 ============
+To Open Mughal-space-time follow:
 
-Open Git bash and run following command:
+  *Open Git bash and run following command:*
 
 $ git clone git@github.com:sidhant47/Mughal-Space-Time.git
 
-$ cd Mughal-Space-Time
+Launguages used
+==============
+*HTML
+*CSS
+*Javascript
 
+Notes
+======
+User Data input will be added in next update.
 
 Contact
 =======
