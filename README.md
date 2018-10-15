@@ -1,6 +1,6 @@
-# Mughal-Space-Time
+# [Mughal-Space-Time] (https://mughal-spacetime.herokuapp.com/home.html)
 
-[Website](https://mughal-spacetime.herokuapp.com/home.html)
+
 
 Features
 ========
