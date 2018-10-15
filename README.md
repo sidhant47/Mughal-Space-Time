@@ -1,4 +1,5 @@
 # Mughal-Space-Time
+This app shows the details of various rulers of the Mughal empire and also their timeline. The dashboard contains Space Time map which depicts the area conquered by Mughal with the change of time also showing battles that were fought by them with details of battles.
 
 App Link
 ========
